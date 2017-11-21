@@ -1,0 +1,15 @@
+@article{ISLAM201753,
+title = "Robust enhancement of depth images from depth sensors",
+journal = "Computers & Graphics",
+volume = "68",
+number = "Supplement C",
+pages = "53 - 65",
+year = "2017",
+issn = "0097-8493",
+doi = "https://doi.org/10.1016/j.cag.2017.08.003",
+url = "http://www.sciencedirect.com/science/article/pii/S0097849317301322",
+author = "A.B.M. Tariqul Islam and Christian Scheel and Renato Pajarola and Oliver Staadt",
+keywords = "Robust filtering, RGB-D sensor, Depth image, 3D imaging, Depth image enhancement, Virtual reality",
+abstract = "Abstract In recent years, depth cameras (such as Microsoft Kinect and ToF cameras) have gained much popularity in computer graphics, visual computing and virtual reality communities due to their low price and easy availability. While depth cameras (e.g. Microsoft Kinect) provide RGB images along with real-time depth information at high frame rate, the depth images often suffer from several artifacts due to inaccurate depth measurement. These artifacts highly degrade the visual quality of the depth frames. Most of these artifacts originate from two main sources—the missing/invalid depth values and fluctuating valid depth values on the generated contents. In this paper, we propose a new depth image enhancement method, for the contents of depth cameras, which addresses these two main sources of artifacts. We introduce a robust 1D Least Median of Squares (1D LMedS) approach to estimate the depth values of those pixels which have missing/invalid depth values. We use a sequence of frames to look for invalid depth values (considered as outliers), and finally, replace those values with stable and more plausible depth values. By doing so, our approach improves the unstable nature of valid depth values in captured scenes that is perceived as flickering. We use self-recorded and reference datasets along with reference methods to evaluate the performance of our proposed 1D LMedS. Experimental results show improvements both for static and moving parts of a scene.",
+summary = "Commodity depth sensing cameras such as the Microsoft Kinect provide low cost options for applications in VR and AR.  These cameras, however, frequently show visual artifacts due to missing or inaccurate depth information.  The authors of this paper seek to correct these errors through a real-time temporal based solution.  This algorithm uses a sliding window of pixel values and a 1DLMedS optimization to discard these invalid pixels as well as pixels which fall too far from the average.  This computationally efficient algorithm provides accurate images with full image sharpness.  The limitations of this algorithm are that it creates lag or ghosting effects when the window is too large, if none of the pixels in the window are valid it cannot recreate the data, and the pixels on the boundaries between objects may be confused between the objects. "
+}
