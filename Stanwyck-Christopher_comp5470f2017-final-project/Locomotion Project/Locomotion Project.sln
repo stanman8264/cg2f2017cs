@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Locomotion Project", "Assembly-CSharp.csproj", "{B0D68BE5-4081-FA0A-A3F4-C3E05CA75019}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Locomotion Project", "Assembly-CSharp-firstpass.csproj", "{0DA389D0-C366-CD73-D859-14FC45EE1280}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Locomotion Project", "Assembly-CSharp-Editor.csproj", "{7D99EBEE-FCF5-3D1E-10AD-14B0260FE9BB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B0D68BE5-4081-FA0A-A3F4-C3E05CA75019}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0D68BE5-4081-FA0A-A3F4-C3E05CA75019}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0D68BE5-4081-FA0A-A3F4-C3E05CA75019}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0D68BE5-4081-FA0A-A3F4-C3E05CA75019}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0DA389D0-C366-CD73-D859-14FC45EE1280}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0DA389D0-C366-CD73-D859-14FC45EE1280}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0DA389D0-C366-CD73-D859-14FC45EE1280}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0DA389D0-C366-CD73-D859-14FC45EE1280}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7D99EBEE-FCF5-3D1E-10AD-14B0260FE9BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D99EBEE-FCF5-3D1E-10AD-14B0260FE9BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D99EBEE-FCF5-3D1E-10AD-14B0260FE9BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D99EBEE-FCF5-3D1E-10AD-14B0260FE9BB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+	EndGlobalSection
+EndGlobal

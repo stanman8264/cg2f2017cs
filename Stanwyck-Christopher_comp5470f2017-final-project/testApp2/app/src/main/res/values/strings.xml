@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">PhoneSensor</string>
+    <string name="edit_message">Enter server IP Address</string>
+    <string name="button_send">Send</string>
+</resources>

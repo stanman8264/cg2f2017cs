@@ -1,0 +1,15 @@
+﻿<Properties StartupItem="Assembly-CSharp.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\SampleScenes\First Person\Resources\OutdoorMotion.txt">
+    <Files>
+      <File FileName="Assets\MyNetwork\NetworkServer.cs" Line="1" Column="1" />
+      <File FileName="Assets\SampleScenes\Common\Scripts\SamplePlayerController.cs" Line="1" Column="1" />
+      <File FileName="Assets\OVRInspector\Scripts\OVRUserPanel.cs" Line="1" Column="1" />
+      <File FileName="Assets\SampleScenes\First Person\Resources\OutdoorMotion.txt" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
