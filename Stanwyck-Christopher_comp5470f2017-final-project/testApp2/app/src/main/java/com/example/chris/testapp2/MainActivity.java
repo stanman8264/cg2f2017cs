@@ -20,13 +20,15 @@ public class MainActivity extends AppCompatActivity {
             wakeLock.acquire();
     }
 
-    /** called when the user taps teh Send button */
+    /** called when the user taps the Send button */
     public void sendMessage(View view) {
-        Intent intent = new Intent(this, SendMessageService.class);
+        //Intent intent = new Intent(this, SendMessageService.class);
+        Intent intent = new Intent(this, DisplayMessageActivity.class);
         EditText editText = (EditText) findViewById(R.id.editText);
         String message = editText.getText().toString();
         intent.putExtra(EXTRA_MESSAGE, message);
-        startService(intent);
+      //  startService(intent);
+        startActivity(intent);
 
     }
 }
